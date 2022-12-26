@@ -1,9 +1,9 @@
 FROM alpine
 
-LABEL   Maintainer="supron0"\
-        Kelas="Pengantar Cloud Computing"
+LABEL maintainer="supron0" \
+      Kelas="pengantar cloud computing"
 
 WORKDIR /fileku
 
-RUN "touch myfile.txt &&" \
-     echo "Dilihat oleh supron0" myfile.txt
+RUN touch myfile.txt && \
+    echo "Dilihat oleh supron" > myfile.txt
