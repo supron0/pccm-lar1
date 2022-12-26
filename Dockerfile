@@ -6,4 +6,4 @@ LABEL   Maintainer="supron0"\
 WORKDIR /fileku
 
 RUN "touch myfile.txt &&" \
-     echo "Dilihat oleh supron0"
+     echo "Dilihat oleh supron0" myfile.txt
